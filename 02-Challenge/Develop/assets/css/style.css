@@ -1,15 +1,15 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+/* Default styles for all devices */ 
+
 
 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
     background-color: #d9dcd6;
 }
 
 .header {
     padding: 20px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -31,9 +31,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* nav styles */
 .header div ul {
     list-style-type: none;
+    margin: 0;
+    padding: o;
 }
 
 .header div ul li {
@@ -49,7 +51,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* hero styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,12 +72,19 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
+    height:auto
+}
+.content img {
+    max-width: 100%;
+    height: auto;
 }
 
 .benefits {
+    display: flex;
+    justify-content: space-around;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,17 +95,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
