@@ -14,3 +14,4 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+![image](https://github.com/Nutechgy/Horiseon/assets/147452378/42d287a2-d031-41ee-8bca-4f0a56133e5e)
